@@ -215,8 +215,8 @@ public class Swarm : MonoBehaviour
 
         }
         if (boidZeroNavigatingTowardGoal && boidZeroPath != null &&
-        boidZeroPath.status == NavMeshPathStatus.PathComplete &&
-        boidZeroPath.corners != null && boidZeroPath.corners.Length > 1)
+            boidZeroPath.status == NavMeshPathStatus.PathComplete &&
+            boidZeroPath.corners != null && boidZeroPath.corners.Length > 1)
         {
             NavMeshHit hit;
             Vector3 p0 = boids[0].position;
@@ -310,8 +310,8 @@ public class Swarm : MonoBehaviour
         }
         boidZeroPath.ClearCorners();
         if (NavMesh.CalculatePath(startHit.position, endHit.position, NavMesh.AllAreas, boidZeroPath) &&
-        boidZeroPath.status == NavMeshPathStatus.PathComplete &&
-        boidZeroPath.corners != null && boidZeroPath.corners.Length > 1)
+            boidZeroPath.status == NavMeshPathStatus.PathComplete &&
+            boidZeroPath.corners != null && boidZeroPath.corners.Length > 1)
         {
             currentCorner = 0;
             boidZeroNavigatingTowardGoal = true;
