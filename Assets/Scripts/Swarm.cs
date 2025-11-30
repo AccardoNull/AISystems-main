@@ -95,6 +95,14 @@ public class Swarm : MonoBehaviour
                 currentTotalForce = Vector3.zero
             };
             boidObjects[i] = Instantiate(boidPrefab, world, Quaternion.LookRotation(fwd, Vector3.up));
+            if (i == 0)
+            {
+                var renderer = boidObjects[i].GetComponentInChildren<Renderer>();
+                if (renderer != null)
+                {
+                    renderer.material.color = Color.red;
+                }
+            }
         }
        boidZeroPath = new NavMeshPath();
        currentCorner = 0;
