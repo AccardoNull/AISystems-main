@@ -302,7 +302,7 @@ public class Swarm : MonoBehaviour
         if (boidZeroNavigatingTowardGoal) return;
         boidZeroGoal = goal;
         NavMeshHit startHit, endHit;
-        bool haveStart = NavMesh.SamplePosition(boids[0].position, out startHit, 2.0f, NavMesh.AllAreas);
+        bool haveStart = NavMesh.SamplePosition(boids[0].position, out startHit, 5.0f, NavMesh.AllAreas);
         bool haveEnd   = NavMesh.SamplePosition(boidZeroGoal, out endHit,  2.0f, NavMesh.AllAreas);
         if (!haveStart || !haveEnd)
         {
