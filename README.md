@@ -4,7 +4,7 @@ WebGL build: https://accardonull.github.io/AISystems-main/
 
 Keys: [Space] to make the red bug navigate to the set goal.
 
-BOIDS system and corresponding simulator in Unity engine that supports an arbitrary number of agents from scratch. 
+BOIDS system and corresponding simulator in Unity engine that supports an arbitrary number of agents. 
 
 Features
 
