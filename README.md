@@ -20,10 +20,8 @@ Features
 
 - The total forces are accumulated
 
--  A function that set the goal and calcuate a path to it for the red bug is implemented, implementing the behaviour triggered by using [Space] button.
+-  A function that set the goal and calcuate a path to it for boidzero (the red bug) is implemented, implementing the behaviour triggered by using [Space] button. A check is made to ensure the processing of the path (navigating + ready + enough corners).
 
-- boidzero is handled. A check is made to ensure we should be processing the path (navigating + ready + enough corners). Position is correctly sampled from the navmesh. Bookkeeping for corners is correct and all corners are followed. Finishing the path is handled cleanly and variables are reset as needed
-
-- The boid objects (animated meshes) are updated and follow the path and heading of the boid particles
+- The boid objects (the bugs) are updated and follow the path and heading of the boid particles
 
 - The symplectic Euler integration scheme is implemented
