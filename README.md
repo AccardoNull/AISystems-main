@@ -20,7 +20,7 @@ Features
 
 - The total forces are accumulated
 
--  SetGoal is implemented, implementing the behaviour described above. A target is set, path calculated
+-  A function that set the goal for the red bug is implemented, implementing the behaviour triggered by using [Space] button. A target is set, path calculated
 
 - boidzero is handled. A check is made to ensure we should be processing the path (navigating + ready + enough corners). Position is correctly sampled from the navmesh. Bookkeeping for corners is correct and all corners are followed. Finishing the path is handled cleanly and variables are reset as needed
 
