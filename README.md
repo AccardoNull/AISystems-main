@@ -4,7 +4,7 @@ WebGL build: https://accardonull.github.io/AISystems-main/
 
 Keys: [Space] to make the red bug navigate to the set goal.
 
-BOIDS system and corresponding simulator in Unity engine that supports an arbitrary number of agents. 
+BOIDS ALife simulation made using C# and Unity engine to support an arbitrary number of autonomous agents with flocking behaviors including separation, cohesion, alignment, obstacle avoidance, and goal-driven navigation. Implemented modular steering and navigation systems with configurable behavior settings and Unity NavMesh integration to improve movement reliability and enable automated testing of multi-agent interactions. 
 
 Features
 
