@@ -1,4 +1,4 @@
-# AISystems-main
+# BOIDS ALife Simulation
 
 WebGL build: https://accardonull.github.io/AISystems-main/
 
