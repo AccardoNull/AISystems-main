@@ -37,7 +37,7 @@ Boids artificial life simulation made using C# and Unity engine to support an ar
 - alignment, Color.green
 - separation, Color.magenta
 - cohesion, Color.yellow
-- obstacle, Color.red 
+- obstacle, Color.red   
 ![screenshot3](Assets/Screenshot3.jpg)
 
 ## Tech Stack
